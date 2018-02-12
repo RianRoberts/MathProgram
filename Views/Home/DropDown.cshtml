@@ -1,0 +1,48 @@
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name ="viewport" content = "width=device-width"/>
+    <title>Index</title>
+</head>
+
+<body>
+    
+    <div>
+        Please select which kind of arithmetic you would like to use.
+      <select>
+  <option value="Addition">Addition</option>
+  <option value="Subtraction">Subtraction</option>
+  <option value="Division">Division</option>
+  <option value="Multiplication">Mulitplication</option>
+  <option value="Modulus">Modulus</option>
+  <input type=button value="Go" onclick="goToNewPage(DropDown.dropdown.list)">
+</select>
+<br/>
+<form action = "Addition">
+     <input type ="submit" value = "Addition"/>
+</form>
+<form action = "Subtraction">
+     <input type ="submit" value = "Subtraction"/>
+</form>
+<form action = "Division">
+     <input type ="submit" value = "Division"/>
+</form>
+<form action = "Multiplication">
+     <input type ="submit" value = "Multiplication"/>
+</form>
+<form action = "Modulus">
+     <input type ="submit" value = "Modulus"/>
+</form>
+
+
+    </div>
+
+</body>
+
+</html>

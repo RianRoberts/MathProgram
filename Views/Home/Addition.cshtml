@@ -1,0 +1,35 @@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name ="viewport" content = "width=device-width"/>
+    <title>Index</title>
+</head>
+
+<body>
+    
+    <div>
+        <form action = "#" method="post">
+            Value 1
+            <input type ="text" name = "value1" value="@ViewBag.value1" />
+            <br />
+            Value 2
+            <input type="text" name="value2" />
+            
+            <div class="row">
+                    Result: <span>@ViewBag.Sum</span>
+                </div>
+        </form>
+<form action = "Solve">
+     <input type ="submit" value = "Solve"/>
+</form>
+
+    </div>
+
+</body>
+
+</html>
